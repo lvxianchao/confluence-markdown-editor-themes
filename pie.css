@@ -35,7 +35,7 @@
 }
 
 .confluence-markdown-editor-content h1, .confluence-markdown-editor-content h2, .confluence-markdown-editor-content h3, .confluence-markdown-editor-content h4, .confluence-markdown-editor-content h5, .confluence-markdown-editor-content h6 {
-    color: #8064a9 !important;
+    color: #f22f27 !important;
     cursor: text !important;
     font-family: JetBrains Mono, Monaco, Microsoft YaHei, PingFang SC, Helvetica Neue, EB Garamond, Georgia, Source Sans Pro, serif !important;
     font-weight: 400 !important;
@@ -52,7 +52,7 @@
 }
 
 .confluence-markdown-editor-content h1:after {
-    border-bottom: 2px solid #8064a9 !important;
+    border-bottom: 2px solid #f22f27 !important;
     content: "" !important;
     display: block !important;
     height: 2px !important;
@@ -61,8 +61,8 @@
 }
 
 .confluence-markdown-editor-content h2 {
-    border-bottom: 1px solid #8064a9 !important;
-    border-left: .4em solid #8064a9 !important;
+    border-bottom: 1px solid #f22f27 !important;
+    border-left: .4em solid #f22f27 !important;
     font-size: 1.75em !important;
     padding-left: .4em !important
 }
@@ -80,7 +80,7 @@
 }
 
 .confluence-markdown-editor-content hr {
-    border-top: 1px solid #8064a9 !important;
+    border-top: 1px solid #f22f27 !important;
     margin: 1.5em auto !important
 }
 
