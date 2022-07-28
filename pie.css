@@ -52,7 +52,6 @@
 }
 
 .confluence-markdown-editor-content h1:after {
-    border-bottom: 2px solid #f22f27 !important;
     content: "" !important;
     display: block !important;
     height: 2px !important;
@@ -61,7 +60,6 @@
 }
 
 .confluence-markdown-editor-content h2 {
-    border-bottom: 1px solid #f22f27 !important;
     border-left: .4em solid #f22f27 !important;
     font-size: 1.75em !important;
     padding-left: .4em !important
