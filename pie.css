@@ -1,0 +1,353 @@
+.confluence-markdown-editor-content {
+    text-rendering: optimizelegibility !important;
+    color: #444 !important;
+    font-family: JetBrains Mono, Monaco, PingFang SC, Microsoft YaHei, Source Sans Pro, Helvetica Neue, sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 0 !important;
+    line-height: 2.5 !important;
+    margin: 0 auto !important;
+    max-width: 914px !important;
+    overflow-x: hidden !important;
+    padding: 1rem 4rem 100px !important;
+    word-spacing: .1rem !important
+}
+
+.confluence-markdown-editor-content :first-child {
+    margin-top: 0 !important
+}
+
+.confluence-markdown-editor-content :last-child {
+    margin-bottom: 0 !important
+}
+
+.confluence-markdown-editor-content p {
+    line-height: 1.6 !important;
+    word-spacing: .1rem !important
+}
+
+.confluence-markdown-editor-content a {
+    color: #745fb5 !important;
+    text-decoration: none !important
+}
+
+.confluence-markdown-editor-content a, .confluence-markdown-editor-content a:hover {
+    border-bottom: 1px solid #bbb !important
+}
+
+.confluence-markdown-editor-content h1, .confluence-markdown-editor-content h2, .confluence-markdown-editor-content h3, .confluence-markdown-editor-content h4, .confluence-markdown-editor-content h5, .confluence-markdown-editor-content h6 {
+    color: #8064a9 !important;
+    cursor: text !important;
+    font-family: JetBrains Mono, Monaco, Microsoft YaHei, PingFang SC, Helvetica Neue, EB Garamond, Georgia, Source Sans Pro, serif !important;
+    font-weight: 400 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 1rem !important;
+    margin-top: 2rem !important;
+    position: relative !important
+}
+
+.confluence-markdown-editor-content h1 {
+    font-size: 2.25em !important;
+    margin-bottom: 2rem !important;
+    text-align: center !important
+}
+
+.confluence-markdown-editor-content h1:after {
+    border-bottom: 2px solid #8064a9 !important;
+    content: "" !important;
+    display: block !important;
+    height: 2px !important;
+    margin: .2em auto 0 !important;
+    width: 6rem !important
+}
+
+.confluence-markdown-editor-content h2 {
+    border-bottom: 1px solid #8064a9 !important;
+    border-left: .4em solid #8064a9 !important;
+    font-size: 1.75em !important;
+    padding-left: .4em !important
+}
+
+.confluence-markdown-editor-content h3 {
+    font-size: 1.5em !important
+}
+
+.confluence-markdown-editor-content h4 {
+    font-size: 1.3em !important
+}
+
+.confluence-markdown-editor-content h6 {
+    font-size: 1.1em !important
+}
+
+.confluence-markdown-editor-content hr {
+    border-top: 1px solid #8064a9 !important;
+    margin: 1.5em auto !important
+}
+
+.confluence-markdown-editor-content li > ol, .confluence-markdown-editor-content li > ul {
+    margin: 0 !important
+}
+
+.confluence-markdown-editor-content li p.first {
+    display: inline-block !important
+}
+
+.confluence-markdown-editor-content ol, .confluence-markdown-editor-content ul {
+    padding-left: 2rem !important
+}
+
+.confluence-markdown-editor-content ol:first-child, .confluence-markdown-editor-content ul:first-child {
+    margin-top: 0 !important
+}
+
+.confluence-markdown-editor-content ol:last-child, .confluence-markdown-editor-content ul:last-child {
+    margin-bottom: 0 !important
+}
+
+.confluence-markdown-editor-content ol li, .confluence-markdown-editor-content ul li {
+    padding-left: .1rem !important
+}
+
+.confluence-markdown-editor-content blockquote {
+    border-left: .3em solid #e3dff0 !important;
+    color: #666 !important;
+    font-family: JetBrains Mono, Monaco, PingFang SC, Microsoft YaHei, Source Sans Pro, Helvetica Neue, sans-serif !important;
+    margin-left: 0 !important;
+    padding-left: 1em !important
+}
+
+.confluence-markdown-editor-content table {
+    margin-bottom: 1.25rem !important
+}
+
+.confluence-markdown-editor-content table td, .confluence-markdown-editor-content table th {
+    border: 1px solid #ddd !important;
+    line-height: 1.25 !important;
+    padding: 8px !important;
+    vertical-align: middle !important
+}
+
+.confluence-markdown-editor-content table th {
+    font-weight: 700 !important
+}
+
+.confluence-markdown-editor-content table thead th {
+    vertical-align: middle !important
+}
+
+.confluence-markdown-editor-content table tr:nth-child(2n), .confluence-markdown-editor-content thead {
+    background-color: #fcfcfc !important
+}
+
+.confluence-markdown-editor-content strong {
+    font-weight: 700 !important;
+    padding: 0 2px !important
+}
+
+.confluence-markdown-editor-content code:not(.code code), .confluence-markdown-editor-content tt {
+    background-color: #f4f2f9 !important;
+    border-radius: .3rem !important;
+    color: #ec71b7 !important;
+    font-family: JetBrains Mono, Monaco, Fira Code, Cascadia Code, Sarasa Term SC, Deja Vu Sans Mono, Consolas, Lucida Console, Andale Mono, Roboto Mono, Courier, Monospace, serif !important;
+    margin: 0 2px !important;
+    padding: 2px 4px !important
+}
+
+.confluence-markdown-editor-content .md-footnote {
+    background-color: #f4f2f9 !important;
+    color: #ec71b7 !important
+}
+
+.confluence-markdown-editor-content mark {
+    background: #ffffc4 !important
+}
+
+.confluence-markdown-editor-content del {
+    padding: 1px 2px !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > input {
+    margin-left: -1.3em !important
+}
+
+.confluence-markdown-editor-content pre.md-meta-block {
+    background-color: #f7f7f7 !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    color: #777 !important;
+    font-size: 85% !important;
+    line-height: 1.45 !important;
+    margin-top: 0 !important;
+    padding: 1rem !important
+}
+
+.confluence-markdown-editor-content .mathjax-block > .code-tooltip {
+    bottom: .375rem !important
+}
+
+.confluence-markdown-editor-content .md-image > .md-meta {
+    border-radius: 3px !important;
+    color: inherit !important;
+    font-family: JetBrains Mono, Monaco, Fira Code, Cascadia Code, Sarasa Term SC, Deja Vu Sans Mono, Consolas, Lucida Console, Andale Mono, Roboto Mono, Courier, Monospace, serif !important;
+    font-size: .9em !important;
+    padding: 2px 0 0 4px !important
+}
+
+.confluence-markdown-editor-content img[alt|=shadow] {
+    box-shadow: 3px 3px 10px #eee !important
+}
+
+.confluence-markdown-editor-content a.md-toc-inner {
+    border-bottom: none !important;
+    color: #888 !important;
+    font-size: .9rem !important;
+    line-height: 1.6 !important;
+    white-space: pre-line !important
+}
+
+.confluence-markdown-editor-content .md-toc-h2 .md-toc-inner {
+    font-weight: 700 !important
+}
+
+.confluence-markdown-editor-content .context-menu, .confluence-markdown-editor-content .megamenu-content, .confluence-markdown-editor-content footer, .confluence-markdown-editor-content header {
+    font-family: JetBrains Mono, Monaco, PingFang SC, Microsoft YaHei, Source Sans Pro, Helvetica Neue, sans-serif !important
+}
+
+.confluence-markdown-editor-content .file-node-content:hover .file-node-icon, .confluence-markdown-editor-content .file-node-content:hover .file-node-open-state {
+    visibility: visible !important
+}
+
+.confluence-markdown-editor-content .md-lang {
+    color: #b4654d !important
+}
+
+.confluence-markdown-editor-content .html-for-mac .context-menu {
+    --item-hover-bg-color: #e6f0fe !important
+}
+
+.confluence-markdown-editor-content .md-fences {
+    background: #fdfdfd !important;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 5px !important;
+    font-size: .9rem !important
+}
+
+.confluence-markdown-editor-content pre.md-fences {
+    -webkit-overflow-scrolling: touch !important;
+    box-shadow: 3px 3px 10px #eee !important;
+    display: block !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner {
+    border-radius: .25rem !important;
+    padding: .25rem !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner .CodeMirror-gutters, .confluence-markdown-editor-content .cm-s-inner.CodeMirror {
+    border: none !important;
+    color: #3a3432 !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner .CodeMirror-gutters {
+    color: #6d8a88 !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner .CodeMirror-linenumber {
+    color: #b8b5b4 !important;
+    padding: 0 .1rem 0 .3rem !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner .CodeMirror-matchingbracket {
+    color: #a34e8f !important;
+    text-decoration: underline !important
+}
+
+.confluence-markdown-editor-content #fences-auto-suggest .active {
+    background: #ddd !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner span.cm-comment {
+    color: #9daab6 !important
+}
+
+.confluence-markdown-editor-content .cm-s-inner span.cm-builtin {
+    color: #0451a5 !important
+}
+
+.confluence-markdown-editor-content .code-tooltip {
+    border: 1px solid #e7e7e7 !important
+}
+
+.confluence-markdown-editor-content .auto-suggest-container {
+    border-color: #b4b4b4 !important
+}
+
+.confluence-markdown-editor-content .auto-suggest-container .autoComplt-hint.active {
+    background: #b4b4b4 !important;
+    color: inherit !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > input {
+    -webkit-appearance: initial !important;
+    border: 1px solid #b4b4b4 !important;
+    border-radius: .2rem !important;
+    display: block !important;
+    height: 1rem !important;
+    margin-top: .3rem !important;
+    position: absolute !important;
+    transition: background .3s !important;
+    width: 1rem !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > input:focus {
+    box-shadow: none !important;
+    outline: none !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > input:hover {
+    background: #ddd !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > input[checked]:before {
+    background: #333 !important;
+    content: "" !important;
+    height: 60% !important;
+    left: 50% !important;
+    position: absolute !important;
+    top: 20% !important;
+    transform: rotate(40deg) !important;
+    width: 2px !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > input[checked]:after {
+    background: #333 !important;
+    content: "" !important;
+    height: 30% !important;
+    left: 25% !important;
+    position: absolute !important;
+    top: 46% !important;
+    transform: rotate(-40deg) !important;
+    width: 2px !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item > p {
+    transition: color .3s, opacity .3s !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item.task-list-done > p {
+    color: #b4b4b4 !important;
+    text-decoration: line-through !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item.task-list-done > p > .md-emoji {
+    opacity: .5 !important
+}
+
+.confluence-markdown-editor-content .md-task-list-item.task-list-done > p > .md-link > a {
+    opacity: .6 !important
+}
+
+.confluence-markdown-editor-content .confluence-information-macro p {
+    line-height: 1.42857143 !important;
+    margin: 0 !important
+}
